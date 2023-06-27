@@ -11,7 +11,7 @@ curl -o /tmp/frontend.zip https://roboshop-artifacts.s3.amazonaws.com/frontend.z
 echo -e "\e[34m>>> extracting the file content <<<\e[0m"
 cd /usr/share/nginx/html
 unzip /tmp/frontend.zip
-cp roboshop.conf /etc/nginx/default.d/roboshop.conf
+cp /home/centos/roboshop-1/roboshop.conf /etc/nginx/default.d/roboshop.conf
 
 echo -e "\e[33m<<< Restart Nginx Service >>>\e[0m"
 systemctl restart nginx
