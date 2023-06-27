@@ -11,3 +11,5 @@ cp roboshop.conf /etc/nginx/default.d/roboshop.conf
 
 echo -e "\e[34m<<< Restart Nginx Service >>>\e[0m"
 Restart Nginx Service
+date = 29/09/23
+echo today date is ${date}
